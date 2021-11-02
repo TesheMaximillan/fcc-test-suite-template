@@ -6,8 +6,8 @@ body {
   font-family: 'Open Sans', Arial, sans-serif;
   line-height: 1.5;
 }
-
 #navbar {
+    display: block;
   position: fixed;
   min-width: 290px;
   top: 0px;
@@ -18,7 +18,11 @@ body {
   border-color: rgba(0, 22, 22, 0.4);
 }
 
+.container {
+    display: flex;
+}
 header {
+    display: block;
   color: black;
   margin: 10px;
   text-align: center;
@@ -32,7 +36,8 @@ header {
 }
 
 #navbar ul {
-  height: 88%;
+  height: 90%;
+  list-style: none;
   padding: 0;
   overflow-y: auto;
   overflow-x: hidden;
@@ -43,7 +48,8 @@ header {
   border-top: 1px solid;
   list-style: none;
   position: relative;
-  width: 100%;
+  width: auto;
+
 }
 
 #navbar a {
